@@ -4,6 +4,9 @@ http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
 
 https://twitter.github.io/scala_school/basics.html
 
+https://twitter.github.io/scala_school/
+
+
 https://github.com/ehsanmok/scala-parallel-programming
 
 <a href='https://www.youtube.com/watch?v=DzFt0YkZo8M'> Link</a> (You Tube)
