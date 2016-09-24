@@ -8,6 +8,14 @@ https://github.com/ehsanmok/scala-parallel-programming
 
 <a href='https://www.youtube.com/watch?v=DzFt0YkZo8M'> Link</a> (You Tube)
 
+https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Scala.html
+
+http://alvinalexander.com/scala
+
+http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
+
+
+
 http://danielwestheide.com/blog/2012/11/21/the-neophytes-guide-to-scala-part-1-extractors.html
 
 http://www.scala-lang.org/
