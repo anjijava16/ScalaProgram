@@ -1,0 +1,102 @@
+Scala Envi:
+
+
+1.  Install scala
+1.1 Download scala (latest version) form http://www.scala-lang.org/
+1.2 Uncompress it
+1.3 Add the scala bin folder to path variable
+    
+2.  Eclipse mars or luna
+
+3.  Scala plugin for eclipse installation
+    Use update site: http://download.scala-ide.org/sdk/lithium/e44/scala211/stable/site
+    For more information please refer http://scala-ide.org/
+    
+4.  scala-maven-plugin installation in eclipse
+    Use update site:   http://alchim31.free.fr/m2e-scala/update-site
+    For more information please refer the following url: http://scala-ide.org/docs/tutorials/m2eclipse/
+
+5.  buil xml element of pom.xml
+
+  <build>
+        <pluginManagement>
+            <plugins>
+            <plugin>
+                <groupId>org.scala-tools</groupId>
+                <artifactId>maven-scala-plugin</artifactId>
+                <version>2.15.2</version>
+            </plugin>
+                 <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.0.2</version>
+                    <configuration>
+                        <source>1.7</source>
+                        <target>1.7</target>
+                    </configuration>
+                  </plugin>
+            </plugins>
+        </pluginManagement>
+        
+        
+        <plugins>
+            <plugin>
+                <groupId>org.scala-tools</groupId>
+                <artifactId>maven-scala-plugin</artifactId>
+                <executions>
+                  <execution>
+                    <goals>
+                      <goal>add-source</goal>
+                      <goal>compile</goal>
+                      <goal>testCompile</goal>
+                    </goals>
+                  </execution>
+                </executions>
+                
+            <configuration>
+              <sourceDir>src/main/scala</sourceDir>
+              <jvmArgs>
+                <jvmArg>-Xms64m</jvmArg>
+                <jvmArg>-Xmx1024m</jvmArg>
+              </jvmArgs>
+            </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        
+        </build>
+        
+        
+
+
+
+
+C:\Users\anjaiahspr>scala -version
+Scala code runner version 2.11.7 -- Copyright 2002-2013, LAMP/EPFL
+
+C:\Users\anjaiahspr>scala
+Welcome to Scala version 2.11.7 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_66).
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> "hello world!"
+res0: String = hello world!
+
+scala> res0
+res1: String = hello world!
+
+scala> :q  (For quite for scala Shell)
+
+C:\Users\anjaiahspr>
