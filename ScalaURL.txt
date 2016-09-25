@@ -6,6 +6,7 @@ https://twitter.github.io/scala_school/basics.html
 
 https://twitter.github.io/scala_school/
 
+http://alvinalexander.com/scala/scala-trait-examples (For Interfacr vs abstract vs class in Scala Way)
 
 https://github.com/ehsanmok/scala-parallel-programming
 
