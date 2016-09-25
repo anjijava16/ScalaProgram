@@ -8,6 +8,10 @@ https://twitter.github.io/scala_school/
 
 http://alvinalexander.com/scala/scala-trait-examples (For Interfacr vs abstract vs class in Scala Way)
 
+http://stackoverflow.com/questions/8070945/why-classes-that-dont-extends-other-classes-must-extend-from-traits-with-does
+
+https://www.safaribooksonline.com/library/view/scala-cookbook/9781449340292/ch08s10.html
+
 https://github.com/ehsanmok/scala-parallel-programming
 
 <a href='https://www.youtube.com/watch?v=DzFt0YkZo8M'> Link</a> (You Tube)
