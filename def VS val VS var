@@ -1,0 +1,33 @@
+In Scala We have 3 things are very important
+
+i) def
+
+ii) var
+
+iii)val
+
+
+1) Def : Defines a method
+
+here are three ways of defining things in Scala:
+
+def defines a method
+val defines a fixed value (which cannot be modified)
+var defines a variable (which can be modified)
+Looking at your code:
+
+def person = new Person("Kumar",12)
+This defines a new method called person. You can call this method only without () because it is defined as parameterless method. For empty-paren method, you can call it with or without '()'. If you simply write:
+
+person
+then you are calling this method (and if you don't assign the return value, it will just be discarded). In this line of code:
+
+person.age = 20
+what happens is that you first call the person method, and on the return value (an instance of class Person) you are changing the age member variable.
+
+And the last line:
+
+println(person.age)
+Here you are again calling the person method, which returns a new instance of class Person (with age set to 12). It's the same as this:
+
+println(person().age)
